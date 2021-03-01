@@ -60,6 +60,6 @@ void OnReceiveTrData(
 - [Automatic Trading System Implementation](https://www.youtube.com/channel/UCq7fsrxP6oi6vnYgPkw92jg)
 <br></br>
 
----
-## English
----
+## TODO
+- [ ] Logger
+- [ ] GUI
