@@ -24,7 +24,7 @@
 슬롯(Slot)이란 Eventloop에서 시그널이 발생했을 때, 해당 이벤트에 대해 동작을 수행하는 것을 말한다. 간단하게, 이벤트(요청, Request)에 대한 동작이 정의된 함수라고 생각할 수 있다. 
 
 ### TR
-![TR](./img/TR.jpg)
+![TR](./img/TR.JPG)
 로그인과 마찬가지로 TR에 대한 EventLoop을 생성할 수 있다. 다음과 같이 OnReceiveTrData를 이용한다. `OnReceiveTrData.connect(slot구역)` 을 이용하여 TR데이터를 수신할 때의 Slot을 지정할 수 있다. 해당 이벤트 루프는 Slot에 다음과 같은 정보를 전달한다.
 
 ```
